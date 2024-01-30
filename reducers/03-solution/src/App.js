@@ -27,7 +27,7 @@ export default function AddUsers() {
           name,
         },
       });
-      event.target.reset();
+      event.currentTarget.reset();
     }
   }
 
